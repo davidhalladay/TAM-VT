@@ -90,3 +90,25 @@ python3 evaluation/evaluation_method.py --set val --dataset_path ../datasets/VOS
 > 
 > **Please use a cluster with at least 32 GB of memory and an 8+ core CPU, or it will reach the memory limit and be terminated.**
 
+
+## Citation
+
+If you find TAM-VT useful for your research and applications, please cite using this BibTeX:
+
+```
+@article{goyal2023m3t,
+  title={TAM-VT: Transformation-Aware Multi-scale Video Transformer for Segmentation and Tracking},
+  author={Goyal, Raghav and Fan, Wan-Cyuan and Siam, Mennatullah and Sigal, Leonid},
+  journal={arXiv preprint arXiv:2312.08514},
+  year={2023}
+}
+
+@misc{goyal2023tamvt,
+    title={TAM-VT: Transformation-Aware Multi-scale Video Transformer for Segmentation and Tracking},
+    author={Raghav Goyal and Wan-Cyuan Fan and Mennatullah Siam and Leonid Sigal},
+    year={2023},
+    eprint={2312.08514},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
